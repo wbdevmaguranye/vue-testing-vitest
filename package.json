@@ -6,11 +6,13 @@
   "scripts": {
     "dev": "vite",
     "build": "vite build",
-    "preview": "vite preview"
+    "preview": "vite preview",
+    "test":"vitest"
   },
   "dependencies": {
     "@vue/server-renderer": "^3.3.4",
     "delay": "^6.0.0",
+    "vitest": "^2.0.3",
     "vue": "^3.2.47"
   },
   "devDependencies": {
